@@ -3,6 +3,7 @@ import android.os.Bundle;
 public class FlightActivity extends AppCompatActivity {
     
     public int fuelLevel = 0;
+   
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -11,6 +12,8 @@ public class FlightActivity extends AppCompatActivity {
     
         // Add your code below!
         Intent intent = getIntent();
+        int fuelLevel = intent.getIntExtra("FUEL_LEVEL",-1);
+        
         
     
     }
