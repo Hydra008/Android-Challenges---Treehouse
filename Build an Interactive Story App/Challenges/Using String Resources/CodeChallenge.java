@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string name = "morePuppies">See More Puppies</string>
-</resources>
+Button loadPuppiesButton = (Button) findViewById(R.id.puppiesButton);
+String buttonLabel = "";
+loadPuppiesButton.setText("LOAD");
