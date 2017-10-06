@@ -3,4 +3,4 @@
 <b>Challenge 2</b>
 <p>Now switch back to CodeChallenge.java. Set the buttonLabel variable to the new String resource you just added using the getString(int id) method. Don't forget: the id parameter will begin with R.string.</p>
 <b>Challenge 3</b>
-<p></p>
+<p>Finally, use the buttonLabel variable to set the text for loadPuppiesButton instead of the current hard-coded String.</p>
